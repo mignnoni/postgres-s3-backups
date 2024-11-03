@@ -2,8 +2,8 @@
 
 public class EnvVariables
 {
-	public EnvVariables()
-	{
+    public EnvVariables()
+    {
         AWSAccessKeyId = GetRequiredValueFromEnv("AWS_ACCESS_KEY_ID");
         AWSSecretAccessKey = GetRequiredValueFromEnv("AWS_SECRET_ACCESS_KEY");
         AWSRegion = GetRequiredValueFromEnv("AWS_REGION");
