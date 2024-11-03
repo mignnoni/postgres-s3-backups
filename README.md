@@ -14,8 +14,6 @@ To ensure the application runs correctly, you will need to set the following env
 
 - `AWS_REGION`: The AWS region where your S3 bucket is located. Example: `us-east-1`.
 
-- `BUCKET_FOLDER`: The connection string for your PostgreSQL database. Example:
-
 - `DATABASE_URL`: The connection string for your PostgreSQL database.
 
 - `BUCKET_FOLDER`: (Optional) The folder path within the S3 bucket where backup files will be stored. Leave this empty if you want to store backups at the root of the bucket.
